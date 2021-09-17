@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% load  static %}
+{% block content%}
+<html>
+<body>
+
+<section class="cont">
+ <div class="div-img"> 
+<img src="{% static 'images/motaut.jpg' %}" alt="" >  
+ </div>
+<div class="div-logo">
+<img class="logo-rev" src="{% static 'images/logo_and_text.svg' %}" width = "400" height = "200"  alt="" > 
+ <h1 class="display-5 fw-bold h1-margen">Renta de Motos y Autos </h1>
+ <h3 class="h3-margen">Desde $699 pesos</h3>
+ <h3></h3>
+ </div>
+ 
+</section>
+<section class="card-autos">
+<h2 class="search">Buscar autos por marca <button type="button" class="btn btn-primary">Renta el tuyo</button></h2>
+<div class="card-group">
+  <div class="card">
+    <img src="{% static 'images/renault.jpeg' %}" class="card-img-top" height = "222" alt="...">
+    <div class="card-body">
+      <h2 class="card-title">Renault<button type="button" class="btn btn-dark">Ver disponibilidad</button></h2>
+      
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static 'images/honda.jpg' %}" class="card-img-top" height = "222" alt="...">
+    <div class="card-body">
+   
+      <h2 class="card-title">Honda<button type="button" class="btn btn-dark">Ver disponibilidad</button></h2>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static 'images/nissan2.jpg' %}" class="card-img-top" height = "222"alt="...">
+    <div class="card-body">
+   
+      <h2 class="card-title">Nissan<button type="button" class="btn btn-dark">Ver disponibilidad</button></h2>
+    </div>
+  </div>
+</div>
+</section> 
+<section class="card-motos">
+<h2 class="search">  Buscar motos por marca <button type="button" class="btn btn-primary">Renta la tuya</button></h2>
+<div class="card-group">
+  <div class="card">
+    <img src="{% static 'images/suzuki.jpg' %}" class="card-img-top" height = "300"alt="...">
+    <div class="card-body">
+      <h2 class="card-title">Suzuki<button type="button" class="btn btn-dark">Ver disponibilidad</button></h2>
+      
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static 'images/Honda-moto.jpg' %}" class="card-img-top" height = "300" alt="...">
+    <div class="card-body">
+    
+      <h2 class="card-title">Honda<button type="button" class="btn btn-dark">Ver disponibilidad</button></h2>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static 'images/italika2.png' %}" class="card-img-top" height = "300"alt="...">
+    <div class="card-body">
+     
+      <h2 class="card-title">Italika<button type="button" class="btn btn-dark">Ver disponibilidad</button></h2>
+    </div>
+  </div>
+</div>
+</section> 
+</body>
+</html>
+{% endblock %}

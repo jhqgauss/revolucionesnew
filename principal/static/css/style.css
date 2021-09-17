@@ -1,0 +1,258 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #585955;
+}
+
+.btn-branding {
+    background-color: #d9e200;
+    color: black;
+}
+
+.btn-branding:hover {
+    color: white;
+    background-color: #585955;
+}
+
+img.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.logo-yellow {
+    filter: brightness(0) saturate(100%) invert(84%) sepia(98%) saturate(2779%) hue-rotate(15deg) brightness(109%) contrast(108%);
+}
+
+.logo-grey {
+    filter: brightness(0) saturate(100%) invert(33%) sepia(9%) saturate(185%) hue-rotate(34deg) brightness(97%) contrast(86%);
+}
+
+.logo-space {
+    height: 2.8em;
+}
+
+.logo-hero {
+    padding-bottom: 2em;
+}
+
+div.signin {
+    display: flex;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.form-signin {
+    text-align: center!important;
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin input[type="username"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-footer {
+    margin-top: 0.5rem;
+}
+
+.form-submit {
+    width: 100%;
+    border: none;
+}
+
+.main-card {
+    padding: 1rem;
+}
+
+.fb-login {
+    color: white;
+    background-color: #0e6dfd;
+}
+
+.fb-login:hover {
+    color: white;
+    background-color: #2a7cf9;
+}
+
+.formset-add {
+    padding: 1.5em;
+}
+
+#formset-model {
+    display: none;
+}
+
+.service-button {
+    color: #212529!important;
+    background-color: #ffc107!important;
+}
+
+.service-button:hover {
+    color: white!important;
+    background-color: #585955!important;
+}
+
+.admin-button {
+    color: white!important;
+    background-color: #17a2b8!important;
+}
+
+.admin-button:hover {
+    color: #212529!important;
+    background-color: #585955!important;
+}
+
+.clickable-row:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #585955;
+}
+
+
+/* responsive iframe */
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+
+.iframe-container>* {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#map_last_location {
+    width: auto!important;
+}
+
+.help-block {
+    color: red;
+}
+
+.card-list-image {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.mensaje {
+    color: red;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(245 245 245);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(245 245 245);
+}
+
+.container-fluid {
+    height: 70px;
+}
+
+.slide img {
+    height: 500px;
+}
+
+.item {
+    position: relative;
+}
+
+.btn-primary {
+    color: black;
+    background-color: #d9e200;
+    border-color: #0d6efd;
+}
+
+.text-end {
+    text-align: right!important;
+}
+
+.me-2 {
+    margin-right: .5rem!important;
+}
+
+.cont {
+    margin-top: 10px;
+    background-color: white;
+}
+
+.div-img {
+    margin-top: 10px;
+    margin-left: 15px;
+    display: inline;
+    float: left;
+}
+
+.text-title {
+    margin-top: 50px;
+    float: left;
+}
+
+.card-autos {
+    clear: both;
+    margin-top: 80px;
+    margin-left: 15px;
+    background-color: rgb(94, 117, 117);
+}
+
+.card-motos {
+    margin-top: 80px;
+    margin-left: 15px;
+    background-color: rgb(163, 168, 168);
+}
+
+.div-logo {
+    margin-left: 800px;
+}
+
+.h1-margen {
+    margin-left: -50px;
+}
+
+.h3-margen {
+    margin-left: 95px;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 15px;
+}
+
+.search {
+    margin-left: 10px;
+}
